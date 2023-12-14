@@ -22,5 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('display_topics/',display_topics,name='display_topics'),
     path('display_web/',display_web,name='display_web'),
-    path('display_asrecords',display_asrecords,name='display_asrecords')
+    path('display_asrecords',display_asrecords,name='display_asrecords'),
+    path('insert_topic/',insert_topic,name='insert_topic'),
+    path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('insert_asrecords/',insert_asrecords,name='insert_asrecords')
 ]
